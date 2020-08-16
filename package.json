@@ -1,0 +1,19 @@
+{
+  "name": "bdbchallenge.back.node",
+  "version": "1.0.0",
+  "description": "A server side Rest API that expose a CREATE/READ an object for a challenge/test bdb",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "Alejandro Martinez Delgado",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
