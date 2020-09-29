@@ -10,6 +10,7 @@ app.use((req, res, next) => {
 });
 app.use(express.json());
 app.use(require('./routes/employees'));
+app.use(require('./routes/testapiclient'));
 app.listen(app.get('port'), () => {
   console.log(`Running on port: ${app.get('port')}`);
 });
